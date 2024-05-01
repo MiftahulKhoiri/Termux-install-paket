@@ -7,7 +7,7 @@ def menu():
 
                             ....
                            W$$$$$u
-    {bear bear bear}       $$$$F**+      .oW$$$eu
+    {beruang beruang}       $$$$F**+      .oW$$$eu
                            ..ueeeWeeo    $$$$$$$$$
                        .eW$$$$$$$$$$$$b- $$$$$$$$$W
            ,,,,,,,uee$$$$$$$$$$$$$$$$$$ H$$$$$$$$$~
@@ -28,10 +28,10 @@ Tb "$$$$$$$$$$$$$$*uL"$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
      "$$$o#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
      ?$$$W$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" 
 
-[02-2021]═════════[HaguacomH]═════════[V.1.0]$
+[01-05-2024]═════════[bagus choiri]═════════[V.1.0]$
 
 ==============================================
-00. Install all tools
+00. paket termux yang mau di install
 -------------------------------------------
 1.  Install Nmap 
 2.  Install Hydra
@@ -53,7 +53,7 @@ Tb "$$$$$$$$$$$$$$*uL"$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 18. Install D-TECT
 19. Install routersploit
 ------------------------------------------
-99. Exit
+99. keluar
 ==============================================
 """)
 
@@ -64,7 +64,7 @@ while loop:
     what = input("#: ")
     if what == "00":
         print("================================")
-        print("Do you want install: nmap, hydra, sqlmap, metasploit, ngrok, angryFuzzer, red_hawk, weeman, IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit and viSQL?.")
+        print("pilih paket mana yang mau kamu install: nmap, hydra, sqlmap, metasploit, ngrok, angryFuzzer, red_hawk, weeman, IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit and viSQL?.")
         print("----------------")
         hm = input("[?] Continue? (Y/N): ").upper()
         print("================================")
@@ -73,19 +73,19 @@ while loop:
             print("[+] Wait a moment")
             print("This will take...")
             print("========================================================")
-            os.system("pkg update")
-            os.system("pkg install -y git")
-            os.system("pkg install -y python")
-            os.system("pkg install -y python2")
-            os.system("pkg install -y wget")
-            os.sysetm("pkg install -y nmap")
-            os.system("plg install -y hydra ")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
-            os.system("pkg install python2")
+            os.system("apt update")
+            os.system("apt install -y git")
+            os.system("apt install -y python")
+            os.system("apt install -y python2")
+            os.system("apt install -y wget")
+            os.sysetm("apt install -y nmap")
+            os.system("apt install -y hydra ")
+            os.system("apt update -y")
+            os.system("apt install -y git")
+            os.system("apt install python2")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/sqlmapproject/sqlmap.git")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg install wget")
+            os.system("apt install wget")
             os.system("cd /data/data/com.termux/files/home && wget https://Auxilus.github.io/metasploit.sh")
             os.system("cd /data/data/com.termux/files/home && bash metasploit.sh")
             os.system("cd /data/data/com.termux/files/home && cd metasploit-framework")
@@ -93,46 +93,46 @@ while loop:
             os.system("cd /data/data/com.termux/files/home && bundle config build.nokogiri --use-system-libraries")
             os.system("cd /data/data/com.termux/files/home && bundle install")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
+            os.system("apt update -y")
+            os.system("apt install -y git")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/themastersunil/ngrok.git")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
-            os.system("pkg install -y python2")
+            os.system("apt update -y")
+            os.system("apt install -y git")
+            os.system("apt install -y python2")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/ihebski/angryFuzzer.git")
             os.system("cd /data/data/com.termux/files/home && cd angryFuzzer")
             os.system("cd /data/data/com.termux/files/home && pip2 install -r requirements.txt")
             os.system("cd /data/data/com.termux/files/home && pip2 install requests")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
-            os.system("pkg install -y php")
+            os.system("apt update -y")
+            os.system("apt install -y git")
+            os.system("apt install -y php")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Tuhinshubhra/RED_HAWK")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg update -y")
-            os.system("pkg install -y python2")
-            os.system("pkg install -y git")
+            os.system("apt update -y")
+            os.system("apt install -y python2")
+            os.system("apt install -y git")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/evait-security/weeman.git")
             os.system("cd /data/data/com.termux/files/home && cd weeman")
             os.system("cd /data/data/com.termux/files/home && chmod +x weeman.py")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
-            os.system("pkg install -y python")
+            os.system("apt update -y")
+            os.system("apt install -y git")
+            os.system("apt install -y python")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/maldevel/IPGeoLocation.git")
             os.system("cd /data/data/com.termux/files/home && cd IPGeoLocation")
             os.system("cd /data/data/com.termux/files/home && pip install -r requirements.txt")
             os.system("cd /data/data/com.termux/files/home")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
-            os.system("pkg install -y python")
+            os.system("apt update -y")
+            os.system("apt install -y git")
+            os.system("apt install -y python")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Mebus/cupp.git")
-            os.system("pkg update -y")
-            os.system("pkg install -y git")
-            os.system("pkg install -y python")
-            os.system("pkg install -y nano")
-            os.system("pip install requests")
+            os.system("apt update -y")
+            os.system("apt install -y git")
+            os.system("apt install -y python")
+            os.system("apt install -y nano")
+            os.system("apt install requests")
             os.system("pip install beautifulsoup4")
             os.system("cd /data/data/com.termux/files/home && git clone https://github.com/avramit/instahack.git")
             os.system("pkg update -y")
@@ -167,15 +167,15 @@ while loop:
             print("[+] Hacking Fun                       <3")
             print("========================================")
         else:
-            rmenu = input("[?] Back to menu? (Y/N): ").upper()
+            rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
             if rmenu == "Y":
                 menu()
             else:
                 break
     if what == "1":
         os.system("cd /data/data/com.termux/files/home")
-        os.system("pkg update -y")
-        os.system("pkg install -y nmap")
+        os.system("apt update -y")
+        os.system("apt install -y nmap")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
         print("[+] nmap installed successfully :)")
@@ -188,8 +188,8 @@ while loop:
             break
     elif what == "2":
         os.system("cd /data/data/com.termux/files/home")
-        os.system("pkg update -y")
-        os.system("pkg install -y hydra")
+        os.system("apt update -y")
+        os.system("apt install -y hydra")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
         print("[+] hydra installed successfully :)")
