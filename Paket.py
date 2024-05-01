@@ -31,7 +31,7 @@ Tb "$$$$$$$$$$$$$$*uL"$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 [01-05-2024]═════════[bagus choiri]═════════[V.1.0]$
 
 ==============================================
-00. paket termux yang mau di install
+00. silahkan pilih paket termux yang mau di install
 -------------------------------------------
 1.  Install Nmap 
 2.  Install Hydra
