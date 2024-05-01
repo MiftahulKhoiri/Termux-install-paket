@@ -195,29 +195,29 @@ while loop:
         print("[+] hydra berhasil di install:)")
         print("[+] Type 'hydra' untuk memulai .")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "3":
         os.system("cd /data/data/com.termux/files/home")
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install python2")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/sqlmapproject/sqlmap.git")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] SQLMap installed successfully :)")
-        print("[+] Go to sqlmap folder and type 'python2 sqlmap.py' to start.")
+        print("[+] SQLMap selesai di install :)")
+        print("[+] pergi ke sqlmap folder dan ketik 'python2 sqlmap.py' untuk memulai .")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "4":
-        os.system("pkg install -y wget")
+        os.system("apt install -y wget")
         os.system("cd /data/data/com.termux/files/home && wget https://Auxilus.github.io/metasploit.sh")
         os.system("cd /data/data/com.termux/files/home && bash metasploit.sh")
         os.system("cd /data/data/com.termux/files/home && cd metasploit-framework")
@@ -226,36 +226,36 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && bundle install")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] Metasploit installed successfully :)")
+        print("[+] Metasploit sukses dibinstall :)")
         print("[+] Type 'msfconsole' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "5":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
+        os.system("apt update -y")
+        os.system("apt install -y git")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/themastersunil/ngrok.git")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] ngrok installed successfully :)")
-        print("[+] Go to ngrok folder and type './ngrok http 80' to start.")
+        print("[+] ngrok sukses di install :)")
+        print("[+] pergi ke folder ngrok dan ketik'./ngrok http 80' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "6":
-        os.system("pkg update -y")
+        os.system("apt update -y")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Hax4us/Nethunter-In-Termux.git")
         os.system("cd /data/data/com.termux/files/home && cd Nethunter-In-Termux && chmod +x kalinethunter")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] Nethunter installed successfully :)")
-        print("[+] Go to Nethunter-In-Termux folder and type './kalinethunter' to start.")
+        print("[+] kali Nethunter sukses di install :)")
+        print("[+] pergi ke folder Nethunter-In-Termux dan ketik './kalinethunter' untuk mulai.")
         print("====================================")
         rmenu = input("[?] Back to menu? (Y/N): ").upper()
         if rmenu == "Y":
