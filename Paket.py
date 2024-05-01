@@ -193,7 +193,7 @@ while loop:
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
         print("[+] hydra berhasil di install:)")
-        print("[+] Type 'hydra' untuk memulai .")
+        print("[+] ketik 'hydra' untuk memulai .")
         print("====================================")
         rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
@@ -226,7 +226,7 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && bundle install")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] Metasploit sukses dibinstall :)")
+        print("[+] Metasploit sukses di install :)")
         print("[+] Type 'msfconsole' to start.")
         print("====================================")
         rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
