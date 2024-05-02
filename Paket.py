@@ -263,9 +263,9 @@ while loop:
         else:
             break
     elif what == "7":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python2")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/ihebski/angryFuzzer.git")
         os.system("cd /data/data/com.termux/files/home && cd angryFuzzer")
         os.system("cd /data/data/com.termux/files/home && pip2 install -r requirements.txt")
@@ -281,9 +281,9 @@ while loop:
         else:
             break
     elif what == "8":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y php")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y php")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Tuhinshubhra/RED_HAWK")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
@@ -464,6 +464,7 @@ while loop:
             menu()
         else:
             break
+
     elif what == "99":
         print("Bye.")
         break
