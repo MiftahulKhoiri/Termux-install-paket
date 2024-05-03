@@ -257,7 +257,7 @@ while loop:
         print("[+] kali Nethunter sukses di install :)")
         print("[+] pergi ke folder Nethunter-In-Termux dan ketik './kalinethunter' untuk mulai.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
@@ -275,7 +275,7 @@ while loop:
         print("[+] angryFuzzer installed successfully :)")
         print("[+] Go to angryFuzzer folder and type 'python2 angryFuzzer.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
@@ -290,15 +290,15 @@ while loop:
         print("[+] RED_HAWK installed successfully :)")
         print("[+] Go to RED_HAWK folder and type 'php rhawk.php' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "9":
-        os.system("pkg update -y")
-        os.system("pkg install -y python2")
-        os.system("pkg install -y git")
+        os.system("apt update -y")
+        os.system("apt install -y python2")
+        os.system("apt install -y git")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/evait-security/weeman.git")
         os.system("cd /data/data/com.termux/files/home && cd weeman")
         os.system("cd /data/data/com.termux/files/home && chmod +x weeman.py")
@@ -307,15 +307,15 @@ while loop:
         print("[+] weeman installed successfully :)")
         print("[+] Go to weeman folder and type 'python2 weeman.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "10":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/maldevel/IPGeoLocation.git")
         os.system("cd /data/data/com.termux/files/home && cd IPGeoLocation")
         os.system("cd /data/data/com.termux/files/home && pip install -r requirements.txt")
@@ -324,30 +324,30 @@ while loop:
         print("[+] IPGeoLocation installed successfully :)")
         print("[+] Go to IPGeoLocation folder and type 'python ipgeolocation.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "11":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Mebus/cupp.git")
         print("====================================")
         print("[+] Cupp installed successfully :)")
         print("[+] Go to cupp folder and type 'python cupp3.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "12":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python")
-        os.system("pkg install -y nano")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python")
+        os.system("apt install -y nano")
         os.system("pip install requests")
         os.system("pip install beautifulsoup4")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/avramit/instahack.git")
@@ -355,101 +355,101 @@ while loop:
         print("[+] Instahack installed successfully :)")
         print("[+] Go to instahack folder and type 'python hackinsta.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "13":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python")
         os.system("pip install mechanicalsoup")
-        os.system("pkg install -y nano")
+        os.system("apt install -y nano")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/abdallahelsokary/TwitterSniper.git")
         print("====================================")
         print("[+] TwitterSniper installed successfully :)")
         print("[+] Go to TwitterSniper folder and type 'python TwitterSniper.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "14":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
+        os.system("apt update -y")
+        os.system("apt install -y git")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Neo-Oli/termux-ubuntu.git")
         os.system("cd /data/data/com.termux/files/home && cd termux-ubuntu && bash ubuntu.sh")
         print("====================================")
         print("[+] Ubuntu installed successfully :)")
         print("[+] Go to termux-ubuntu folder and type './start.sh' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "15":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y wget")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y wget")
         os.system("apt update && apt install wget -y && /data/data/com.termux/files/usr/bin/wget https://raw.githubusercontent.com/nmilosev/termux-fedora/master/termux-fedora.sh")
         print("====================================")
         print("[+] Fedora installed successfully :)")
         print("[+] Type 'sh termux-fedora.sh f26_arm64' or 'sh termux-fedora.sh f26_arm' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "16":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python2")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/blackvkng/viSQL.git")
         print("====================================")
         print("[+] viSQL installed successfully :)")
         print("[+] Go to viSQL folder and type 'python2 viSQL.py --help' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "17":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python2")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/UltimateHackers/Hash-Buster.git")
         print("====================================")
         print("[+] Hash-Buster installed successfully :)")
         print("[+] Go to Hash-Buster folder and type 'python2 hash.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "18":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python2")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/shawarkhanethicalhacker/D-TECT.git")
         print("====================================")
         print("[+] Hash-Buster installed successfully :)")
         print("[+] Go to Hash-Buster folder and type 'python2 hash.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu ? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
             break
     elif what == "19":
-        os.system("pkg update -y")
-        os.system("pkg install -y git")
-        os.system("pkg install -y python2")
+        os.system("apt update -y")
+        os.system("apt install -y git")
+        os.system("apt install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/reverse-shell/routersploit.git")
         os.system("cd /data/data/com.termux/files/home && cd routersploit")
         os.system("pip2 install -r requirements.txt")
@@ -459,7 +459,7 @@ while loop:
         print("[+] routersploit installed successfully :)")
         print("[+] Go to routersploit folder and type 'python2 rsf.py' to start.")
         print("====================================")
-        rmenu = input("[?] Back to menu? (Y/N): ").upper()
+        rmenu = input("[?] kembali ke menu? (Y/N): ").upper()
         if rmenu == "Y":
             menu()
         else:
