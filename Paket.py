@@ -61,7 +61,7 @@ loop = True
 
 while loop:
     menu()
-    what = input("#: ")
+    what = input(" masukan angka : ")
     if what == "00":
         print("================================")
         print("pilih paket mana yang mau kamu install: nmap, hydra, sqlmap, metasploit, ngrok, angryFuzzer, red_hawk, weeman, IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit and viSQL?.")
